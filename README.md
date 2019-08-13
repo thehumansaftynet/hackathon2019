@@ -2,7 +2,7 @@
 
 ## THE ENTREPRENEURIAL JOURNEY - An Interactive Online and Offline Game (not just) For Refugee
 
-####Proposal Summary
+#### Proposal Summary
 
 This brand new computer game utilizes entrepreneurial skills to strengthen not only vital hard skills for aspiring entrepreneurs, but also relevant soft skills - both online and offline. It will be co-created with refugee entrepreneurs to ensure a good target group fit. The game is thus also a clear signal to the wider society: Refugees are not passive receivers of support, they create meaningful benefit for their own community and for other entrepreneurs.
 
