@@ -16,7 +16,9 @@ public class PersonaCratorController : MonoBehaviour
     public Sprite[] PersonaBilder;
     public Sprite Questionmark;
     public Sprite Upload;
-    public Image Avatar;
+    public Image[] Avatar;
+
+    public Text[] Kundennamen;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,14 @@ public class PersonaCratorController : MonoBehaviour
 
     }
 
+    public void NameChanged(string name)
+    {
+        foreach(var n in Kundennamen)
+        {
+            n.text = name;
+        }
+    }
+
     public void CheckboxChanged()
     {
         string imagename = $"{getActiveID(Bildung)}_{getActiveID(Geschlecht)}_{getActiveID(Alter)}";
@@ -41,14 +51,20 @@ public class PersonaCratorController : MonoBehaviour
             if (StringComparison(s.name, imagename))
             {
                 found = true;
-                Avatar.GetComponent<Image>().sprite = s;
+                foreach(var a in Avatar)
+                {
+                    a.GetComponent<Image>().sprite = s;
+                }
             }
         }
 
         if (!found)
         {
             Debug.Log($"Not found {imagename}");
-            Avatar.GetComponent<Image>().sprite = Questionmark;
+            foreach (var a in Avatar)
+            {
+                a.GetComponent<Image>().sprite = Questionmark;
+            }
         }
     }
 
@@ -76,6 +92,16 @@ public class PersonaCratorController : MonoBehaviour
         }
 
         return 0;
+    }
+
+    public void FinishPersone()
+    {
+
+        PlayerPrefs.SetInt("personas_done", 1);
+        string imagename = $"{getActiveID(Bildung)}_{getActiveID(Geschlecht)}_{getActiveID(Alter)}";
+        PlayerPrefs.SetString("personas_image", imagename);
+
+        AppController.Instance.StartMapScene();
     }
 
 }

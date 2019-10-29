@@ -6,18 +6,20 @@ using UnityEngine.SceneManagement;
 public class AppController : MonoBehaviour
 {
 
-    //public static AppController Instance;
+    public static AppController Instance;
+
+
 
     private void Awake()
     {
-        //if(Instance != null)
-        //{
-        //    Destroy(gameObject);
-        //    return;
-        //}
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
-        //Instance = this;
-        //DontDestroyOnLoad(gameObject);
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
 
     }
 
@@ -28,19 +30,34 @@ public class AppController : MonoBehaviour
         
     }
 
+    IEnumerator LoadScene(string name)
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(name);
+        asyncLoad.allowSceneActivation = false;
+
+        yield return new WaitForSeconds(1f);
+
+        while (!asyncLoad.isDone)
+        {
+            asyncLoad.allowSceneActivation = true;
+            yield return null;
+        }
+
+    }
+
     public void StartPersoneHouseScene()
     {
-        SceneManager.LoadScene("HausKundenPersona");
+        StartCoroutine(LoadScene("HausKundenPersona"));
     }
 
     public void StartMarketScene()
     {
-        SceneManager.LoadScene("MarktplatzScene");
+        StartCoroutine(LoadScene("MarktplatzScene"));
     }
 
     public void StartMapScene()
     {
-        SceneManager.LoadScene("MainScene");
+        StartCoroutine(LoadScene("MainScene"));
 
     }
 

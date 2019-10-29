@@ -11,9 +11,9 @@ public class HausKundenPersonaController : MonoBehaviour
 
     public GameObject BackgroundManu;
 
-    public int[] maxValues;
+    public float[] maxValues;
 
-    public DragWithMomentum TextScollingScript;
+    public DragWithMomentum TextScrollingScript;
 
 
     private int state = 0;
@@ -21,6 +21,7 @@ public class HausKundenPersonaController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        TextScrollingScript.Max = maxValues[0];
         //PersonaTextIntro.SetActive(true);
     }
 
@@ -42,13 +43,15 @@ public class HausKundenPersonaController : MonoBehaviour
                 PersonaTextIntro.SetActive(false);
                 InterviewTextIntro.SetActive(true);
                 canvas = InterviewTextIntro.transform.Find("Canvas");
-                TextScollingScript.ScrollPane = canvas.gameObject;
+                TextScrollingScript.ScrollPane = canvas.gameObject;
+                TextScrollingScript.Max = maxValues[1];
                 break;
             case 2:
                 InterviewTextIntro.SetActive(false);
                 BackgroundManu.SetActive(false);
-                canvas = InterviewTextIntro.transform.Find("Canvas");
-                TextScollingScript.ScrollPane = canvas.gameObject;
+                canvas = Creator.transform.Find("Canvas");
+                TextScrollingScript.ScrollPane = canvas.gameObject;
+                TextScrollingScript.Max = maxValues[2];
                 Creator.SetActive(true);
                 break;
             case 3:
