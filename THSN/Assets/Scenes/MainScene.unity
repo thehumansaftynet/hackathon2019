@@ -348,6 +348,7 @@ GameObject:
   - component: {fileID: 550542803}
   - component: {fileID: 550542802}
   - component: {fileID: 550542804}
+  - component: {fileID: 550542805}
   m_Layer: 0
   m_Name: haus2
   m_TagString: Untagged
@@ -411,7 +412,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 550542801}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.011, y: 0.601, z: 0}
+  m_LocalPosition: {x: 7.011, y: 0.601, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1374210726}
@@ -443,6 +444,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.25, y: 1.59}
   m_EdgeRadius: 0
+--- !u!114 &550542805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550542801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8dfba9fa0a3294448fdf01fd6c92ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 885551354}
+        m_MethodName: StartMarketScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &781697970
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,6 +483,7 @@ GameObject:
   - component: {fileID: 781697972}
   - component: {fileID: 781697971}
   - component: {fileID: 781697973}
+  - component: {fileID: 781697974}
   m_Layer: 0
   m_Name: haus6
   m_TagString: Untagged
@@ -517,7 +547,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781697970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.45, y: -2.8, z: 0}
+  m_LocalPosition: {x: -5.45, y: -2.8, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1374210726}
@@ -549,6 +579,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.23, y: 1.83}
   m_EdgeRadius: 0
+--- !u!114 &781697974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781697970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8dfba9fa0a3294448fdf01fd6c92ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 885551354}
+        m_MethodName: StartPersoneHouseScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &863919222
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +618,7 @@ GameObject:
   - component: {fileID: 863919224}
   - component: {fileID: 863919223}
   - component: {fileID: 863919225}
+  - component: {fileID: 863919226}
   m_Layer: 0
   m_Name: haus1
   m_TagString: Untagged
@@ -623,7 +682,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863919222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.532, y: -2.45, z: 0}
+  m_LocalPosition: {x: 5.532, y: -2.45, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1374210726}
@@ -655,54 +714,46 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.32, y: 1.87}
   m_EdgeRadius: 0
---- !u!1 &885551353
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 885551355}
-  - component: {fileID: 885551354}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &885551354
+--- !u!114 &863919226
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885551353}
+  m_GameObject: {fileID: 863919222}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebb42f8caed1597429a416037b5d8fcf, type: 3}
+  m_Script: {fileID: 11500000, guid: f8dfba9fa0a3294448fdf01fd6c92ac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartServerInUnity: 0
-  connectionAttemptInterval: 10
-  ServerFile: {fileID: 0}
-  ShowServerConsole: 0
-  logging: 1
---- !u!4 &885551355
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  customEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 885551354}
+        m_MethodName: StartMarketScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &885551354 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4767310263606688509, guid: bae34e62c0772bf4bac4d1436f7b049e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4767310263274818055}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885551353}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.456989, y: 0.03757531, z: 0.116174296}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebbd996e51c1cd44d875aa800ceae139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &951754230
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,7 +892,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163281400}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.109, y: 0.12, z: 0}
+  m_LocalPosition: {x: -0.109, y: 0.12, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1374210726}
@@ -1016,6 +1067,7 @@ GameObject:
   - component: {fileID: 1712752823}
   - component: {fileID: 1712752822}
   - component: {fileID: 1712752824}
+  - component: {fileID: 1712752825}
   m_Layer: 0
   m_Name: haus3
   m_TagString: Untagged
@@ -1079,7 +1131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712752821}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.855, y: 2.816, z: 0}
+  m_LocalPosition: {x: 6.855, y: 2.816, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1374210726}
@@ -1111,6 +1163,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.05, y: 1.58}
   m_EdgeRadius: 0
+--- !u!114 &1712752825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712752821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8dfba9fa0a3294448fdf01fd6c92ac3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 885551354}
+        m_MethodName: StartMarketScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &2072680845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,7 +1265,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072680845}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.61, y: 0.73, z: 0}
+  m_LocalPosition: {x: -3.61, y: 0.73, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1374210726}
@@ -1247,3 +1327,72 @@ Transform:
   m_Father: {fileID: 1020721730}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4767310263274818055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4767310263606688510, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_Name
+      value: AppController
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767310263606688508, guid: bae34e62c0772bf4bac4d1436f7b049e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bae34e62c0772bf4bac4d1436f7b049e, type: 3}
