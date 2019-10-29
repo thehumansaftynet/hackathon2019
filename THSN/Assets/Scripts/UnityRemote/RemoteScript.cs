@@ -123,7 +123,7 @@ public class RemoteScript : MonoBehaviour
 
         try
         {
-            var task = tcpClient.ConnectAsync("127.0.0.1", 3000);
+            var task = tcpClient.ConnectAsync("server.srings.eu", 4050);    
             await task;
 
             SendMessageToServer("ping");

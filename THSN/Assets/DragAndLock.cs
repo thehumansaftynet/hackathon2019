@@ -31,7 +31,7 @@ public class DragAndLock : MonoBehaviour
                 pos.x = XMin;
                 transform.position = pos;
             }
-            else if (pos.y > XMax)
+            else if (pos.x > XMax)
             {
                 pos.x = XMax;
                 transform.position = pos;
@@ -42,7 +42,7 @@ public class DragAndLock : MonoBehaviour
 
     void OnMouseDown()
     {
-        StopCoroutine("LerpToAnchor");
+        StopAllCoroutines();
         var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         _dragAnchor = pos - transform.position;
         lastValues.Clear();
