@@ -194,6 +194,15 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5774218406839483470, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: "\n\n\nSocial Impact Lab\n\nIm Social Impact Lab Bonn erhalten Social
+        Entrepreneurs umfassende und professionelle Unterst\xFCtzung - inklusive Arbeitspl\xE4tzen
+        in unserem barrierefreien Coworking Space, Coaching & Beratung, Workshops
+        und Netzwerk-Events.\n\n     - Social Impact Lab\n     - Community\n     -
+        Coworking"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f93527f3f26022842804fcf489e3384b, type: 3}
 --- !u!4 &66304284 stripped
@@ -269,6 +278,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8802335830236986280, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -2044067447
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802335830236986280, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 558189290477143528, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
       propertyPath: m_Text
@@ -284,15 +303,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8802335830236986280, guid: f93527f3f26022842804fcf489e3384b,
+    - target: {fileID: 5774218406839483470, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
-      propertyPath: m_SortingLayerID
-      value: -2044067447
-      objectReference: {fileID: 0}
-    - target: {fileID: 8802335830236986280, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 0
+      propertyPath: m_Text
+      value: "\n\n\nSocial Impact Lab\n\nIm Social Impact Lab Bonn erhalten Social
+        Entrepreneurs umfassende und professionelle Unterst\xFCtzung - inklusive Arbeitspl\xE4tzen
+        in unserem barrierefreien Coworking Space, Coaching & Beratung, Workshops
+        und Netzwerk-Events.\n\n     - Social Impact Lab\n     - Community\n     -
+        Coworking"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f93527f3f26022842804fcf489e3384b, type: 3}
@@ -456,6 +474,15 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774218406839483470, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: "\n\n\nSocial Impact Lab\n\nIm Social Impact Lab Bonn erhalten Social
+        Entrepreneurs umfassende und professionelle Unterst\xFCtzung - inklusive Arbeitspl\xE4tzen
+        in unserem barrierefreien Coworking Space, Coaching & Beratung, Workshops
+        und Netzwerk-Events.\n\n     - Social Impact Lab\n     - Community\n     -
+        Coworking"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f93527f3f26022842804fcf489e3384b, type: 3}
@@ -866,6 +893,15 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5774218406839483470, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: "\n\n\nSocial Impact Lab\n\nIm Social Impact Lab Bonn erhalten Social
+        Entrepreneurs umfassende und professionelle Unterst\xFCtzung - inklusive Arbeitspl\xE4tzen
+        in unserem barrierefreien Coworking Space, Coaching & Beratung, Workshops
+        und Netzwerk-Events.\n\n     - Social Impact Lab\n     - Community\n     -
+        Coworking"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f93527f3f26022842804fcf489e3384b, type: 3}
 --- !u!1 &830117179
@@ -1185,6 +1221,15 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5774218406839483470, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: "\n\n\nSocial Impact Lab\n\nIm Social Impact Lab Bonn erhalten Social
+        Entrepreneurs umfassende und professionelle Unterst\xFCtzung - inklusive Arbeitspl\xE4tzen
+        in unserem barrierefreien Coworking Space, Coaching & Beratung, Workshops
+        und Netzwerk-Events.\n\n     - Social Impact Lab\n     - Community\n     -
+        Coworking"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f93527f3f26022842804fcf489e3384b, type: 3}
 --- !u!1001 &1262856745
@@ -1197,7 +1242,7 @@ PrefabInstance:
     - target: {fileID: 260151035072900819, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
       propertyPath: m_Name
-      value: pin
+      value: LokaMotion Berlin
       objectReference: {fileID: 0}
     - target: {fileID: 260151035072900819, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
@@ -1274,21 +1319,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.31681332
       objectReference: {fileID: 0}
-    - target: {fileID: 558189290477143528, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_Text
-      value: LOK.a.Motion
-      objectReference: {fileID: 0}
-    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.25500488
-      objectReference: {fileID: 0}
-    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 3.6749878
-      objectReference: {fileID: 0}
     - target: {fileID: 8802335830236986280, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
       propertyPath: m_Color.r
@@ -1304,10 +1334,36 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.37453753
       objectReference: {fileID: 0}
+    - target: {fileID: 558189290477143528, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: LOK.a.Motion
+      objectReference: {fileID: 0}
     - target: {fileID: 6294300420237221510, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
       propertyPath: m_SortingLayerID
       value: -499808259
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.25500488
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.6749878
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774218406839483470, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: "\n\n\nLOK.a.Motion\n\nDer LOK e.V. und die LOK.a.Motion GmbH, kurz LOK,
+        unterst\xFCtzen Menschen beim Aufbau und bei der Festigung einer beruflichen
+        Selbst\xE4ndigkeit. Dies tun wir mit Beratung und Coaching, in Projekten und
+        auch au\xDFerhalb, mit der \xDCbernahme unterschiedlicher Dienstleistungen
+        wie Marketing oder Finanzabwicklung sowie mit verschiedenen Vernetzungsaktivit\xE4ten.\n\n
+        \    - Gr\xFCndungsberatung\n     - Weiterbildung\n     - Coaching\n     -
+        Standortmarketing und Standortentwicklung\n"
       objectReference: {fileID: 0}
     - target: {fileID: 5214369669514581105, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
@@ -1491,6 +1547,15 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774218406839483470, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: "\n\n\nSocial Impact Lab\n\nIm Social Impact Lab Bonn erhalten Social
+        Entrepreneurs umfassende und professionelle Unterst\xFCtzung - inklusive Arbeitspl\xE4tzen
+        in unserem barrierefreien Coworking Space, Coaching & Beratung, Workshops
+        und Netzwerk-Events.\n\n     - Social Impact Lab\n     - Community\n     -
+        Coworking"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f93527f3f26022842804fcf489e3384b, type: 3}
@@ -1721,21 +1786,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 558189290477143528, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_Text
-      value: SINGA Karlsruhe
-      objectReference: {fileID: 0}
-    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.0020141602
-      objectReference: {fileID: 0}
-    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8802335830236986280, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
       propertyPath: m_Color.r
@@ -1751,6 +1801,11 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.27843136
       objectReference: {fileID: 0}
+    - target: {fileID: 558189290477143528, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: SINGA Karlsruhe
+      objectReference: {fileID: 0}
     - target: {fileID: 4121720168916232040, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
       propertyPath: m_IsActive
@@ -1762,6 +1817,16 @@ PrefabInstance:
       value: 'this is the overlay text
 
         containing the long description'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0020141602
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5214369669514581105, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
@@ -1838,21 +1903,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 558189290477143528, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_Text
-      value: SINGA Strasbourg
-      objectReference: {fileID: 0}
-    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.0020141602
-      objectReference: {fileID: 0}
-    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8802335830236986280, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
       propertyPath: m_Color.r
@@ -1867,6 +1917,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.27843136
+      objectReference: {fileID: 0}
+    - target: {fileID: 558189290477143528, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: SINGA Strasbourg
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0020141602
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5214369669514581105, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
@@ -2027,21 +2092,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 558189290477143528, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_Text
-      value: SINGA Stuttgart
-      objectReference: {fileID: 0}
-    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.0020141602
-      objectReference: {fileID: 0}
-    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8802335830236986280, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
       propertyPath: m_Color.r
@@ -2056,6 +2106,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.27843136
+      objectReference: {fileID: 0}
+    - target: {fileID: 558189290477143528, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_Text
+      value: SINGA Stuttgart
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0020141602
+      objectReference: {fileID: 0}
+    - target: {fileID: 9090800503726666260, guid: f93527f3f26022842804fcf489e3384b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5214369669514581105, guid: f93527f3f26022842804fcf489e3384b,
         type: 3}
