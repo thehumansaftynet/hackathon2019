@@ -53,7 +53,7 @@ public class DragAndLock : MonoBehaviour
 
         var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         pos = pos - _dragAnchor;
-        pos.y = 0;
+        pos.y = transform.position.y;
         transform.position = pos;
 
         lastPos = transform.position;
