@@ -9,6 +9,7 @@ public class MainMenuController : MonoBehaviour
     public SpriteRenderer HausPersonas;
     public GameObject[] Houses;
     public Text HouseTitleField;
+    public Text punkte;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,15 @@ public class MainMenuController : MonoBehaviour
             {
                 HausPersonas.color = Color.green;
             }
+        }
+
+        if (PlayerPrefs.HasKey("punkte"))
+        {
+            punkte.text = $"Punke: {PlayerPrefs.GetInt("punkte")}";
+        }
+        else
+        {
+            PlayerPrefs.SetInt("punkte", 0);
         }
     }
 
@@ -40,6 +50,7 @@ public class MainMenuController : MonoBehaviour
         }
 
         HouseTitleField.text = Houses[minID].name;
+
 
 
     }

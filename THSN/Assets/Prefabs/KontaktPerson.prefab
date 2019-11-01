@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4489411284749195766}
   - component: {fileID: 5516218397459973334}
+  - component: {fileID: 2505576575901557009}
   m_Layer: 0
   m_Name: KontaktPerson
   m_TagString: Untagged
@@ -81,6 +82,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2505576575901557009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2768754012098472191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53244e8f70b7e164e96faee4aedb62cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6211264588310167461
 GameObject:
   m_ObjectHideFlags: 0

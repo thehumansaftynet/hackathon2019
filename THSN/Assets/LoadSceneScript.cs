@@ -6,8 +6,8 @@ public class LoadSceneScript : MonoBehaviour
 {
     // Start is called before the first frame update
 
-
-    public string name;
+        
+    public new string name;
     void Start()
 
     {
@@ -30,6 +30,17 @@ public class LoadSceneScript : MonoBehaviour
             case "persona":
                 AppController.Instance.StartPersoneHouseScene();
                 break;
+            case "marktplatz":
+                AppController.Instance.StartScene("MarktplatzScene");
+                break;
+            case "connect":
+                AppController.Instance.StartScene("ConnectScreen");
+                break;
         }
+    }
+
+    public void LoadScene(string name)
+    {
+        AppController.Instance.StartScene(name);
     }
 }

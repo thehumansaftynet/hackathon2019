@@ -13,6 +13,10 @@ public class FadeBox : MonoBehaviour
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        var color = sr.color;
+        color.a = 1;
+        sr.color = color;
+        FadeIn();
     }
 
     // Update is called once per frame

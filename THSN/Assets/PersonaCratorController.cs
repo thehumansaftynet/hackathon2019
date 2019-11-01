@@ -100,6 +100,10 @@ public class PersonaCratorController : MonoBehaviour
         PlayerPrefs.SetInt("personas_done", 1);
         string imagename = $"{getActiveID(Bildung)}_{getActiveID(Geschlecht)}_{getActiveID(Alter)}";
         PlayerPrefs.SetString("personas_image", imagename);
+        if (PlayerPrefs.HasKey("punkte"))
+        {
+            PlayerPrefs.SetInt("punkte", PlayerPrefs.GetInt("punkte") + 100);
+        }
 
         AppController.Instance.StartMapScene();
     }

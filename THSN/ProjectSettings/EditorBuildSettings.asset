@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MarktplatzScene.unity
     guid: 432e78bed75fbfe40b9e44c8f2717c15
+  - enabled: 1
+    path: Assets/Scenes/ConnectScreen.unity
+    guid: 0d60aa0594228b0489cb7c5c368321a4
   m_configObjects: {}

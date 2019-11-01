@@ -61,6 +61,12 @@ public class AppController : MonoBehaviour
 
     }
 
+    public void StartScene(string name)
+    {
+        StartCoroutine(LoadScene(name));
+
+    }
+
     // Update is called once per frame
     void Update()
     {
